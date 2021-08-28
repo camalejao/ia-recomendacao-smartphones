@@ -1,81 +1,81 @@
 [
     {
-        "ant": [ { "input_sistema": 0 } ],
+        "ant": [ { "input_sistema": 1 } ],
         "con": [ { "sistema": "Android" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_sistema": 1 } ],
+        "ant": [ { "input_sistema": 2 } ],
         "con": [ { "sistema": "iOS" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_nfc": 0 } ],
+        "ant": [ { "input_nfc": 1 } ],
         "con": [ { "nfc": "Sim" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_nfc": 1 } ],
+        "ant": [ { "input_nfc": 2 } ],
         "con": [ { "nfc": "Nao" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_biometria": 0 } ],
+        "ant": [ { "input_biometria": 1 } ],
         "con": [ { "biometria": "Sim" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_biometria": 1 } ],
+        "ant": [ { "input_biometria": 2 } ],
         "con": [ { "biometria": "Nao" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_armazenamento": 0 } ],
+        "ant": [ { "input_armazenamento": 1 } ],
         "con": [ { "armazenamento": "512MB" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_armazenamento": 1 } ],
+        "ant": [ { "input_armazenamento": 2 } ],
         "con": [ { "armazenamento": "16GB" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_armazenamento": 2 } ],
+        "ant": [ { "input_armazenamento": 3 } ],
         "con": [ { "armazenamento": "32GB" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_armazenamento": 3 } ],
+        "ant": [ { "input_armazenamento": 4 } ],
         "con": [ { "armazenamento": "64GB" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_armazenamento": 4 } ],
+        "ant": [ { "input_armazenamento": 5 } ],
         "con": [ { "armazenamento": "128GB" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_armazenamento": 5 } ],
+        "ant": [ { "input_armazenamento": 6 } ],
         "con": [ { "armazenamento": "256GB" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_armazenamento": 6 } ],
+        "ant": [ { "input_armazenamento": 7 } ],
         "con": [ { "armazenamento": "512GB" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_conexao": 0 } ],
+        "ant": [ { "input_conexao": 1 } ],
         "con": [ { "conexao": "3G" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_conexao": 1 } ],
+        "ant": [ { "input_conexao": 2 } ],
         "con": [ { "conexao": "4G" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_conexao": 2 } ],
+        "ant": [ { "input_conexao": 3 } ],
         "con": [ { "conexao": "5G" } ],
         "aplicada": false
     },

@@ -8,21 +8,18 @@ with open("regras.json", "r") as f:
 # print(regras)
 
 fatos = []
+inputs = []
+interface.Interface(inputs)
 
-interface.showOS()
-fatos.append({ 'input_sistema': int(input()) })
+fatos.append({ 'input_sistema': inputs[1].get()})
+fatos.append({ 'input_biometria':  inputs[13].get()})
+fatos.append({ 'input_nfc': inputs[12].get()})
+fatos.append({ 'input_armazenamento': inputs[3].get()})
+fatos.append({ 'input_conexao': inputs[11].get()})
 
-interface.showBio()
-fatos.append({ 'input_biometria': int(input()) })
 
-interface.showNFC()
-fatos.append({ 'input_nfc': int(input()) })
 
-interface.showArmazenamento()
-fatos.append({ 'input_armazenamento': int(input()) })
 
-interface.showConexao()
-fatos.append({ 'input_conexao': int(input()) })
 
 celular = inferencia.encadeamento_frente('celular', fatos, regras)
 
