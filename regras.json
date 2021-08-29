@@ -11,27 +11,27 @@
     },
     {
         "ant": [ { "input_preco": 1 } ],
-        "con": [ { "preco": "Entre R$ 220,00 e R$ 800,00" } ],
+        "con": [ { "ipreco": "Entre R$ 220,00 e R$ 800,00" } ],
         "aplicada": false
     },
     {
         "ant": [ { "input_preco": 2 } ],
-        "con": [ { "preco": "Entre R$ 1100,00 e R$ 1800,00" } ],
+        "con": [ { "ipreco": "Entre R$ 1100,00 e R$ 1800,00" } ],
         "aplicada": false
     },
     {
         "ant": [ { "input_preco": 3 } ],
-        "con": [ { "preco": "Entre R$ 2000,00 e R$ 2700,00" } ],
+        "con": [ { "ipreco": "Entre R$ 2000,00 e R$ 2700,00" } ],
         "aplicada": false
     },
     {
         "ant": [ { "input_preco": 4 } ],
-        "con": [ { "preco": "Entre R$ 3900,00 e R$ 4500,00" } ],
+        "con": [ { "ipreco": "Entre R$ 3900,00 e R$ 4500,00" } ],
         "aplicada": false
     },
     {
         "ant": [ { "input_preco": 5 } ],
-        "con": [ { "preco": " Acima de R$ 5500,00" } ],
+        "con": [ { "ipreco": " Acima de R$ 5500,00" } ],
         "aplicada": false
     },
     {
@@ -283,7 +283,7 @@
     {
         "ant": [
             { "sistema": "Android" },
-            {"preco":"Entre R$ 3900,00 e R$ 4500,00"},
+            {"ipreco":"Entre R$ 3900,00 e R$ 4500,00"},
             { "armazenamento": "256GB" },
             { "ram": "8GB" },
             { "chip":"dual chip"},
@@ -307,7 +307,7 @@
     {
         "ant": [
             { "sistema": "Android" },
-            {"preco":"Entre R$ 1100,00 e R$ 1800,00"},
+            {"ipreco":"Entre R$ 1100,00 e R$ 1800,00"},
             { "armazenamento": "64GB" },
             {  "ram": "4GB"   },
             { "chip":"dual chip"},
@@ -331,7 +331,7 @@
     {
         "ant": [
             { "sistema": "iOS" },
-            {"preco":"Entre R$ 2000,00 e R$ 2700,00"},
+            {"ipreco":"Entre R$ 2000,00 e R$ 2700,00"},
             { "armazenamento": "64GB" },
             {  "ram": "3GB"   },
             { "chip":"dual chip"},
@@ -355,7 +355,7 @@
     {
         "ant": [
             { "sistema": "Android" },
-            {"preco": "Entre R$ 220,00 e R$ 800,00"},
+            {"ipreco": "Entre R$ 220,00 e R$ 800,00"},
             { "armazenamento": "512MB"},
             {  "ram": "Ate 1GB"},
             { "chip": "dual chip"},
@@ -379,7 +379,7 @@
     {
         "ant": [
             { "sistema": "Android" },
-            {"preco": "Entre R$ 220,00 e R$ 800,00"},
+            {"ipreco": "Entre R$ 220,00 e R$ 800,00"},
             { "armazenamento": "16GB"},
             {  "ram": "Ate 1GB"},
             { "chip":"dual chip"},
@@ -403,7 +403,7 @@
     {
         "ant": [
             { "sistema": "Android" },
-            {"preco":"Entre R$ 220,00 e R$ 800,00"},
+            {"ipreco":"Entre R$ 220,00 e R$ 800,00"},
             { "armazenamento": "32GB"},
             {  "ram": "2GB"},
             { "chip":"dual chip"},
@@ -427,7 +427,7 @@
     {
         "ant": [
             { "sistema": "Android" },
-            {"preco":"Entre R$ 220,00 e R$ 800,00"},
+            {"ipreco":"Entre R$ 220,00 e R$ 800,00"},
             { "armazenamento": "64GB"},
             {  "ram": "Ate 1GB"},
             { "chip":"dual chip"},
@@ -451,7 +451,7 @@
     {
         "ant": [
             { "sistema":"Android"  },
-            {"preco":"Entre R$ 1100,00 e R$ 1800,00"},
+            {"ipreco":"Entre R$ 1100,00 e R$ 1800,00"},
             { "armazenamento": "128GB"},
             {  "ram": "4GB"},
             { "chip":"dual chip"},
@@ -475,7 +475,7 @@
     {
         "ant": [
             { "sistema": "Android" },
-            {"preco":"Entre R$ 1100,00 e R$ 1800,00"},
+            {"ipreco":"Entre R$ 1100,00 e R$ 1800,00"},
             { "armazenamento": "128GB"},
             {  "ram":"6GB" },
             { "chip":"dual chip"},
@@ -499,7 +499,7 @@
     {
         "ant": [
             { "sistema":  "Android"},
-            {"preco":"Entre R$ 2000,00 e R$ 2700,00"},
+            {"ipreco":"Entre R$ 2000,00 e R$ 2700,00"},
             { "armazenamento": "128GB"},
             {  "ram": "6GB"},
             { "chip":"dual chip"},
@@ -523,7 +523,7 @@
     {
         "ant": [
             { "sistema": "Android" },
-            {"preco": "Entre R$ 2000,00 e R$ 2700,00"},
+            {"ipreco": "Entre R$ 2000,00 e R$ 2700,00"},
             { "armazenamento": "128GB"},
             {  "ram": "6GB"},
             { "chip":"dual chip"},
@@ -547,7 +547,7 @@
     {
         "ant": [
             { "sistema": "Android" },
-            {"preco":"Entre R$ 3900,00 e R$ 4500,00"},
+            {"ipreco":"Entre R$ 3900,00 e R$ 4500,00"},
             { "armazenamento": "256GB"},
             {  "ram": "8GB"},
             { "chip":"dual chip"},
@@ -571,7 +571,7 @@
     {
         "ant": [
             { "sistema": "Android" },
-            {"preco":" Acima de R$ 5500,00"},
+            {"ipreco":" Acima de R$ 5500,00"},
             { "armazenamento": "256GB"},
             {  "ram": "16GB"},
             { "chip":"dual chip"},
@@ -595,7 +595,7 @@
     {
         "ant": [
             { "sistema": "iOS" },
-            {"preco":"Entre R$ 3900,00 e R$ 4500,00"},
+            {"ipreco":"Entre R$ 3900,00 e R$ 4500,00"},
             { "armazenamento": "128GB"},
             {  "ram": "4GB"},
             { "chip":"single chip"},
@@ -619,7 +619,7 @@
     {
         "ant": [
             { "sistema": "iOS" },
-            {"preco":" Acima de R$ 5500,00"},
+            {"ipreco":" Acima de R$ 5500,00"},
             { "armazenamento": "128GB"},
             {  "ram": "4GB"},
             { "chip":"single chip"},
@@ -643,7 +643,7 @@
     {
         "ant": [
             { "sistema":"iOS"  },
-            {"preco":" Acima de R$ 5500,00"},
+            {"ipreco":" Acima de R$ 5500,00"},
             { "armazenamento": "512GB"},
             {  "ram": "4GB"},
             { "chip":"single chip"},
