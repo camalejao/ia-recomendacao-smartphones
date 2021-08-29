@@ -10,23 +10,28 @@
         "aplicada": false
     },
     {
-        "ant": [ { "input_nfc": 1 } ],
-        "con": [ { "nfc": "Sim" } ],
+        "ant": [ { "input_preco": 1 } ],
+        "con": [ { "preco": "Entre R$ 220,00 e R$ 800,00" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_nfc": 2 } ],
-        "con": [ { "nfc": "Nao" } ],
+        "ant": [ { "input_preco": 2 } ],
+        "con": [ { "preco": "Entre R$ 1100,00 e R$ 1800,00" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_biometria": 1 } ],
-        "con": [ { "biometria": "Sim" } ],
+        "ant": [ { "input_preco": 3 } ],
+        "con": [ { "preco": "Entre R$ 2000,00 e R$ 2700,00" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_biometria": 2 } ],
-        "con": [ { "biometria": "Nao" } ],
+        "ant": [ { "input_preco": 4 } ],
+        "con": [ { "preco": "Entre R$ 3900,00 e R$ 4500,00" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_preco": 5 } ],
+        "con": [ { "preco": " Acima de R$ 5500,00" } ],
         "aplicada": false
     },
     {
@@ -65,6 +70,161 @@
         "aplicada": false
     },
     {
+        "ant": [ { "input_ram": 1 } ],
+        "con": [ { "ram": "Ate 1GB" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_ram": 2 } ],
+        "con": [ { "ram": "2GB" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_ram": 3 } ],
+        "con": [ { "ram": "3GB" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_ram": 4 } ],
+        "con": [ { "ram": "4GB" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_ram": 5 } ],
+        "con": [ { "ram": "6GB" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_ram": 6 } ],
+        "con": [ { "ram": "8GB" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_ram": 7 } ],
+        "con": [ { "ram": "16GB" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_chip": 1 } ],
+        "con": [ { "chip": "single chip" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_chip": 2 } ],
+        "con": [ { "chip": "dual chip" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_cam_traseira": 1 } ],
+        "con": [ { "cam_traseira": "0.3 a 10 MP" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_cam_traseira": 2 } ],
+        "con": [ { "cam_traseira": "12 a 20 MP" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_cam_traseira": 3 } ],
+        "con": [ { "cam_traseira": "Acima de 20 MP" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_cam_frontal": 1 } ],
+        "con": [ { "cam_frontal": "Sem cam frontal" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_cam_frontal": 2 } ],
+        "con": [ { "cam_frontal": "5 a 10 MP" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_cam_frontal": 3 } ],
+        "con": [ { "cam_frontal": "12 a 16 MP" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_cam_frontal": 4 } ],
+        "con": [ { "cam_frontal": "20 MP ou mais" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_res_filmagem": 1 } ],
+        "con": [ { "res_filmagem": "HD" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_res_filmagem": 2 } ],
+        "con": [ { "res_filmagem": "FULL HD" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_res_filmagem": 3 } ],
+        "con": [ { "res_filmagem": "4K" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_res_filmagem": 4 } ],
+        "con": [ { "res_filmagem": "8K" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_res_filmagem": 5 } ],
+        "con": [ { "res_filmagem": "sem filmadora" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_tela": 1 } ],
+        "con": [ { "tela": "2.4" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_tela": 2 } ],
+        "con": [ { "tela": "4" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_tela": 3 } ],
+        "con": [ { "tela": "4.5 a 4.9" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_tela": 4 } ],
+        "con": [ { "tela": "5 a 6" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_tela": 5 } ],
+        "con": [ { "tela": "Acima de 6" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_bateria": 1 } ],
+        "con": [ { "bateria": "Ate 1500 mAh" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_bateria": 2 } ],
+        "con": [ { "bateria": "1821 mAh a 3000 mAh" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_bateria": 3 } ],
+        "con": [ { "bateria": "3100 mAh a 4000 mAh" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_bateria": 4 } ],
+        "con": [ { "bateria": "4300 mAh a 4900 mAh" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_bateria": 5 } ],
+        "con": [ { "bateria": "5000 mAh a 6000 mAh" } ],
+        "aplicada": false
+    },
+    {
         "ant": [ { "input_conexao": 1 } ],
         "con": [ { "conexao": "3G" } ],
         "aplicada": false
@@ -80,12 +240,64 @@
         "aplicada": false
     },
     {
+        "ant": [ { "input_nfc": 1 } ],
+        "con": [ { "nfc": "Sim" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_nfc": 2 } ],
+        "con": [ { "nfc": "Nao" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_biometria": 1 } ],
+        "con": [ { "biometria": "Sim" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_biometria": 2 } ],
+        "con": [ { "biometria": "Nao" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_agua":  1} ],
+        "con": [ { "agua": "Sim" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_agua":  2} ],
+        "con": [ { "agua": "Nao" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_sem_fio":  1} ],
+        "con": [ { "sem_fio": "Sim" } ],
+        "aplicada": false
+    },
+    {
+        "ant": [ { "input_sem_fio":  2} ],
+        "con": [ { "sem_fio": "Nao" } ],
+        "aplicada": false
+    },
+    
+    {
         "ant": [
             { "sistema": "Android" },
+            {"preco":"Entre R$ 3900,00 e R$ 4500,00"},
+            { "armazenamento": "256GB" },
+            { "ram": "8GB" },
+            { "chip":"dual chip"},
+            { "cam_traseira":"Acima de 20 MP"},
+            { "cam_frontal":"5 a 10 MP"},
+            {"res_filmagem":"8K"},
+            {"tela":"Acima de 6"},
+            {"bateria":"5000 mAh a 6000 mAh"},
+            { "conexao": "5G" },
             { "nfc": "Sim" },
             { "biometria": "Sim" },
-            { "armazenamento": "256GB" },
-            { "conexao": "5G" }
+            {"agua":"Sim"},
+            {"sem_fio":"Sim"}
+            
         ],
         "con": [
             { "celular": { "modelo": "Galaxy S21", "imagem": "", "descricao": "", "preco": "" }}
@@ -95,10 +307,21 @@
     {
         "ant": [
             { "sistema": "Android" },
+            {"preco":"Entre R$ 1100,00 e R$ 1800,00"},
+            { "armazenamento": "64GB" },
+            {  "ram": "4GB"   },
+            { "chip":"dual chip"},
+            { "cam_traseira":"Acima de 20 MP"},
+            { "cam_frontal":"12 a 16 MP"},
+            {"res_filmagem":"4K"},
+            {"tela":"Acima de 6"},
+            {"bateria":"5000 mAh a 6000 mAh"},
+            { "conexao": "4G" },
             { "nfc": "Nao" },
             { "biometria": "Sim" },
-            { "armazenamento": "64GB" },
-            { "conexao": "4G" }
+            {"agua":"Nao"},
+            {"sem_fio":"Nao"}
+            
         ],
         "con": [
             { "celular": { "modelo": "Redmi Note 10", "imagem": "", "descricao": "", "preco": "" }}
@@ -108,13 +331,336 @@
     {
         "ant": [
             { "sistema": "iOS" },
+            {"preco":"Entre R$ 2000,00 e R$ 2700,00"},
+            { "armazenamento": "64GB" },
+            {  "ram": "3GB"   },
+            { "chip":"dual chip"},
+            { "cam_traseira":"12 a 20 MP"},
+            { "cam_frontal":"5 a 10 MP"},
+            {"res_filmagem":"4K"},
+            {"tela":"4.5 a 4.9"},
+            {"bateria":"1821 mAh a 3000 mAh"},
+            { "conexao": "4G" },
             { "nfc": "Sim" },
             { "biometria": "Sim" },
-            { "armazenamento": "64GB" },
-            { "conexao": "4G" }
+            {"agua":"Sim"},
+            {"sem_fio":"Sim"}
+            
         ],
         "con": [
             { "celular": { "modelo": "iPhone SE", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            {"preco": "Entre R$ 220,00 e R$ 800,00"},
+            { "armazenamento": "512MB"},
+            {  "ram": "Ate 1GB"},
+            { "chip": "dual chip"},
+            { "cam_traseira":"0.3 a 10 MP"},
+            { "cam_frontal":"Sem cam frontal"},
+            {"res_filmagem":"sem filmadora"},
+            {"tela":"2.4"},
+            {"bateria":"Ate 1500 mAh"},
+            { "conexao": "3G" },
+            { "nfc": "Nao" },
+            { "biometria":"Nao"  },
+            {"agua":"Nao"},
+            {"sem_fio":"Nao"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "Positivo P70", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            {"preco": "Entre R$ 220,00 e R$ 800,00"},
+            { "armazenamento": "16GB"},
+            {  "ram": "Ate 1GB"},
+            { "chip":"dual chip"},
+            { "cam_traseira":"0.3 a 10 MP"},
+            { "cam_frontal":"5 a 10 MP"},
+            {"res_filmagem":"sem filmadora"},
+            {"tela":"4"},
+            {"bateria":"Ate 1500 mAh"},
+            { "conexao": "3G" },
+            { "nfc":  "Nao"},
+            { "biometria": "Nao" },
+            {"agua":"Nao"},
+            {"sem_fio":"Nao"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "Multilaser E Lite", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            {"preco":"Entre R$ 220,00 e R$ 800,00"},
+            { "armazenamento": "32GB"},
+            {  "ram": "2GB"},
+            { "chip":"dual chip"},
+            { "cam_traseira":"12 a 20 MP"},
+            { "cam_frontal":"5 a 10 MP"},
+            {"res_filmagem":"FULL HD"},
+            {"tela":"Acima de 6"},
+            {"bateria":"1821 mAh a 3000 mAh"},
+            { "conexao": "4G" },
+            { "nfc": "Nao" },
+            { "biometria":"Sim"  },
+            {"agua":"Nao"},
+            {"sem_fio":"Nao"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "Motorola Moto E E6i", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            {"preco":"Entre R$ 220,00 e R$ 800,00"},
+            { "armazenamento": "64GB"},
+            {  "ram": "Ate 1GB"},
+            { "chip":"dual chip"},
+            { "cam_traseira":"0.3 a 10 MP"},
+            { "cam_frontal":"5 a 10 MP"},
+            {"res_filmagem":"HD"},
+            {"tela":"5 a 6"},
+            {"bateria":"1821 mAh a 3000 mAh"},
+            { "conexao": "4G" },
+            { "nfc":  "Nao"},
+            { "biometria": "Nao" },
+            {"agua":"Nao"},
+            {"sem_fio":"Nao"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "Positivo Twist 4 Pro", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema":"Android"  },
+            {"preco":"Entre R$ 1100,00 e R$ 1800,00"},
+            { "armazenamento": "128GB"},
+            {  "ram": "4GB"},
+            { "chip":"dual chip"},
+            { "cam_traseira":"Acima de 20 MP"},
+            { "cam_frontal":"12 a 16 MP"},
+            {"res_filmagem":"4K"},
+            {"tela":"Acima de 6"},
+            {"bateria":"3100 mAh a 4000 mAh"},
+            { "conexao": "4G" },
+            { "nfc":  "Nao"},
+            { "biometria": "Sim" },
+            {"agua":"Nao"},
+            {"sem_fio":"Nao"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "Redmi Note 8", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            {"preco":"Entre R$ 1100,00 e R$ 1800,00"},
+            { "armazenamento": "128GB"},
+            {  "ram":"6GB" },
+            { "chip":"dual chip"},
+            { "cam_traseira":"Acima de 20 MP"},
+            { "cam_frontal":"20 MP ou mais"},
+            {"res_filmagem":"4K"},
+            {"tela":"Acima de 6"},
+            {"bateria":"5000 mAh a 6000 mAh"},
+            { "conexao":  "4G"},
+            { "nfc":  "Nao"},
+            { "biometria": "Sim" },
+            {"agua":"Nao"},
+            {"sem_fio":"Nao"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "Samsung Galaxy M32", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema":  "Android"},
+            {"preco":"Entre R$ 2000,00 e R$ 2700,00"},
+            { "armazenamento": "128GB"},
+            {  "ram": "6GB"},
+            { "chip":"dual chip"},
+            { "cam_traseira":"Acima de 20 MP"},
+            { "cam_frontal":"12 a 16 MP"},
+            {"res_filmagem":"4K"},
+            {"tela":"Acima de 6"},
+            {"bateria":"3100 mAh a 4000 mAh"},
+            { "conexao":  "4G"},
+            { "nfc":  "Sim"},
+            { "biometria": "Sim" },
+            {"agua":"Sim"},
+            {"sem_fio":"Nao"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "LG Velvet", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            {"preco": "Entre R$ 2000,00 e R$ 2700,00"},
+            { "armazenamento": "128GB"},
+            {  "ram": "6GB"},
+            { "chip":"dual chip"},
+            { "cam_traseira":"Acima de 20 MP"},
+            { "cam_frontal":"12 a 16 MP"},
+            {"res_filmagem":"4K"},
+            {"tela":"Acima de 6"},
+            {"bateria":"5000 mAh a 6000 mAh"},
+            { "conexao": "4G" },
+            { "nfc":  "Sim"},
+            { "biometria": "Sim" },
+            {"agua":"Nao"},
+            {"sem_fio":"Nao"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "Motorola G60s", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            {"preco":"Entre R$ 3900,00 e R$ 4500,00"},
+            { "armazenamento": "256GB"},
+            {  "ram": "8GB"},
+            { "chip":"dual chip"},
+            { "cam_traseira":"Acima de 20 MP"},
+            { "cam_frontal":"5 a 10 MP"},
+            {"res_filmagem":"8K"},
+            {"tela":"Acima de 6"},
+            {"bateria":"4300 mAh a 4900 mAh"},
+            { "conexao": "5G" },
+            { "nfc": "Sim" },
+            { "biometria": "Sim" },
+            {"agua":"Sim"},
+            {"sem_fio":"Sim"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "Samsung Galaxy Note 20", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            {"preco":" Acima de R$ 5500,00"},
+            { "armazenamento": "256GB"},
+            {  "ram": "16GB"},
+            { "chip":"dual chip"},
+            { "cam_traseira":"Acima de 20 MP"},
+            { "cam_frontal":"20 MP ou mais"},
+            {"res_filmagem":"8K"},
+            {"tela":"Acima de 6"},
+            {"bateria":"5000 mAh a 6000 mAh"},
+            { "conexao": "5G" },
+            { "nfc":  "Sim"},
+            { "biometria": "Sim" },
+            {"agua":"Nao"},
+            {"sem_fio":"Sim"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "Asus ROG Phone 5", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "iOS" },
+            {"preco":"Entre R$ 3900,00 e R$ 4500,00"},
+            { "armazenamento": "128GB"},
+            {  "ram": "4GB"},
+            { "chip":"single chip"},
+            { "cam_traseira":"12 a 20 MP"},
+            { "cam_frontal":"12 a 16 MP"},
+            {"res_filmagem":"4K"},
+            {"tela":"Acima de 6"},
+            {"bateria":"3100 mAh a 4000 mAh"},
+            { "conexao": "4G" },
+            { "nfc": "Sim" },
+            { "biometria":"Nao"  },
+            {"agua":"Sim"},
+            {"sem_fio":"Sim"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "iPhone 11", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "iOS" },
+            {"preco":" Acima de R$ 5500,00"},
+            { "armazenamento": "128GB"},
+            {  "ram": "4GB"},
+            { "chip":"single chip"},
+            { "cam_traseira":"12 a 20 MP"},
+            { "cam_frontal":"12 a 16 MP"},
+            {"res_filmagem":"4K"},
+            {"tela":"5 a 6"},
+            {"bateria":"1821 mAh a 3000 mAh"},
+            { "conexao":  "5G"},
+            { "nfc":  "Sim"},
+            { "biometria": "Nao" },
+            {"agua":"Sim"},
+            {"sem_fio":"Sim"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "iPhone 12 Mini", "imagem": "", "descricao": "", "preco": "" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema":"iOS"  },
+            {"preco":" Acima de R$ 5500,00"},
+            { "armazenamento": "512GB"},
+            {  "ram": "4GB"},
+            { "chip":"single chip"},
+            { "cam_traseira":"12 a 20 MP"},
+            { "cam_frontal": "12 a 16 MP"},
+            {"res_filmagem":"4K"},
+            {"tela":"Acima de 6"},
+            {"bateria":"3100 mAh a 4000 mAh"},
+            { "conexao":  "5G"},
+            { "nfc": "Sim" },
+            { "biometria":"Nao"  },
+            {"agua":"Sim"},
+            {"sem_fio":"Sim"}
+            
+        ],
+        "con": [
+            { "celular": { "modelo": "iPhone 12 Pro Max", "imagem": "", "descricao": "", "preco": "" }}
         ],
         "aplicada": false
     }
