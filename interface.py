@@ -5,7 +5,7 @@ def Interface(groups):
 
     ws = Tk()
     ws.title("Sistema de Recomendacao de Smartphones")
-    ws.geometry('1000x800')
+    ws.geometry('1200x800')
 
 
     frame1 = LabelFrame(ws, text='Selecione o sistema operacional desejado')

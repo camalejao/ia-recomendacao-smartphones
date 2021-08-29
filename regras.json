@@ -31,7 +31,7 @@
     },
     {
         "ant": [ { "input_preco": 5 } ],
-        "con": [ { "ipreco": " Acima de R$ 5500,00" } ],
+        "con": [ { "ipreco": "Acima de R$ 5500,00" } ],
         "aplicada": false
     },
     {
@@ -260,407 +260,479 @@
         "aplicada": false
     },
     {
-        "ant": [ { "input_agua":  1} ],
+        "ant": [ { "input_agua":  1 } ],
         "con": [ { "agua": "Sim" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_agua":  2} ],
+        "ant": [ { "input_agua":  2 } ],
         "con": [ { "agua": "Nao" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_sem_fio":  1} ],
+        "ant": [ { "input_sem_fio": 1 } ],
         "con": [ { "sem_fio": "Sim" } ],
         "aplicada": false
     },
     {
-        "ant": [ { "input_sem_fio":  2} ],
+        "ant": [ { "input_sem_fio": 2 } ],
         "con": [ { "sem_fio": "Nao" } ],
         "aplicada": false
     },
-    
     {
         "ant": [
             { "sistema": "Android" },
-            {"ipreco":"Entre R$ 3900,00 e R$ 4500,00"},
+            { "ipreco": "Entre R$ 3900,00 e R$ 4500,00" },
             { "armazenamento": "256GB" },
             { "ram": "8GB" },
-            { "chip":"dual chip"},
-            { "cam_traseira":"Acima de 20 MP"},
-            { "cam_frontal":"5 a 10 MP"},
-            {"res_filmagem":"8K"},
-            {"tela":"Acima de 6"},
-            {"bateria":"5000 mAh a 6000 mAh"},
+            { "chip": "dual chip" },
+            { "cam_traseira": "Acima de 20 MP" },
+            { "cam_frontal": "5 a 10 MP" },
+            { "res_filmagem": "8K" },
+            { "tela": "Acima de 6" },
+            { "bateria": "5000 mAh a 6000 mAh" },
             { "conexao": "5G" },
             { "nfc": "Sim" },
             { "biometria": "Sim" },
-            {"agua":"Sim"},
-            {"sem_fio":"Sim"}
-            
+            { "agua": "Sim" },
+            { "sem_fio": "Sim" }
         ],
         "con": [
-            { "celular": { "modelo": "Galaxy S21", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": {
+                "modelo": "Galaxy S21",
+                "imagem": "./img/s21.jpg",
+                "descricao": "Smartphone Android topo de linha da Samsung. Tem conexão 5G, 256 GB de armazenamento, NFC, biometria e resistência a água.",
+                "preco": "R$ 4.000,00" }}
         ],
         "aplicada": false
     },
     {
         "ant": [
             { "sistema": "Android" },
-            {"ipreco":"Entre R$ 1100,00 e R$ 1800,00"},
+            { "ipreco": "Entre R$ 1100,00 e R$ 1800,00" },
             { "armazenamento": "64GB" },
-            {  "ram": "4GB"   },
-            { "chip":"dual chip"},
-            { "cam_traseira":"Acima de 20 MP"},
-            { "cam_frontal":"12 a 16 MP"},
-            {"res_filmagem":"4K"},
-            {"tela":"Acima de 6"},
-            {"bateria":"5000 mAh a 6000 mAh"},
+            { "ram": "4GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "Acima de 20 MP" },
+            { "cam_frontal": "12 a 16 MP" },
+            { "res_filmagem": "4K" },
+            { "tela": "Acima de 6" },
+            { "bateria": "5000 mAh a 6000 mAh" },
             { "conexao": "4G" },
             { "nfc": "Nao" },
             { "biometria": "Sim" },
-            {"agua":"Nao"},
-            {"sem_fio":"Nao"}
+            { "agua": "Nao" },
+            { "sem_fio": "Nao" }
             
         ],
         "con": [
-            { "celular": { "modelo": "Redmi Note 10", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": {
+                "modelo": "Redmi Note 10",
+                "imagem": "./img/note10.jpg",
+                "descricao": "Smartphone Android fabricado pela Xiaomi. Conta com 5000 mAh de bateria, 64GB de armazenamento e leitor biométrico.",
+                "preco": "R$ 1.500,00" }}
         ],
         "aplicada": false
     },
     {
         "ant": [
             { "sistema": "iOS" },
-            {"ipreco":"Entre R$ 2000,00 e R$ 2700,00"},
+            { "ipreco": "Entre R$ 2000,00 e R$ 2700,00" },
             { "armazenamento": "64GB" },
-            {  "ram": "3GB"   },
-            { "chip":"dual chip"},
-            { "cam_traseira":"12 a 20 MP"},
-            { "cam_frontal":"5 a 10 MP"},
-            {"res_filmagem":"4K"},
-            {"tela":"4.5 a 4.9"},
-            {"bateria":"1821 mAh a 3000 mAh"},
+            { "ram": "3GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "12 a 20 MP" },
+            { "cam_frontal": "5 a 10 MP" },
+            { "res_filmagem": "4K" },
+            { "tela": "4.5 a 4.9" },
+            { "bateria": "1821 mAh a 3000 mAh" },
             { "conexao": "4G" },
             { "nfc": "Sim" },
             { "biometria": "Sim" },
-            {"agua":"Sim"},
-            {"sem_fio":"Sim"}
+            { "agua": "Sim" },
+            { "sem_fio": "Sim" }
             
         ],
         "con": [
-            { "celular": { "modelo": "iPhone SE", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": {
+                "modelo": "iPhone SE",
+                "imagem": "./img/iphoneSE.png",
+                "descricao": "Modelo de entrada da linha de smartphones iOS da Apple. Conta com tela de 4,7 polegadas, resistência a água e 64 GB de armazenamento.",
+                "preco": "R$ 2.700,00" }}
         ],
         "aplicada": false
     },
     {
         "ant": [
             { "sistema": "Android" },
-            {"ipreco": "Entre R$ 220,00 e R$ 800,00"},
-            { "armazenamento": "512MB"},
-            {  "ram": "Ate 1GB"},
-            { "chip": "dual chip"},
-            { "cam_traseira":"0.3 a 10 MP"},
-            { "cam_frontal":"Sem cam frontal"},
-            {"res_filmagem":"sem filmadora"},
-            {"tela":"2.4"},
-            {"bateria":"Ate 1500 mAh"},
+            { "ipreco": "Entre R$ 220,00 e R$ 800,00" },
+            { "armazenamento": "512MB" },
+            { "ram": "Ate 1GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "0.3 a 10 MP" },
+            { "cam_frontal": "Sem cam frontal" },
+            { "res_filmagem": "sem filmadora" },
+            { "tela": "2.4" },
+            { "bateria": "Ate 1500 mAh" },
             { "conexao": "3G" },
             { "nfc": "Nao" },
-            { "biometria":"Nao"  },
-            {"agua":"Nao"},
-            {"sem_fio":"Nao"}
-            
-        ],
-        "con": [
-            { "celular": { "modelo": "Positivo P70", "imagem": "", "descricao": "", "preco": "" }}
-        ],
-        "aplicada": false
-    },
-    {
-        "ant": [
-            { "sistema": "Android" },
-            {"ipreco": "Entre R$ 220,00 e R$ 800,00"},
-            { "armazenamento": "16GB"},
-            {  "ram": "Ate 1GB"},
-            { "chip":"dual chip"},
-            { "cam_traseira":"0.3 a 10 MP"},
-            { "cam_frontal":"5 a 10 MP"},
-            {"res_filmagem":"sem filmadora"},
-            {"tela":"4"},
-            {"bateria":"Ate 1500 mAh"},
-            { "conexao": "3G" },
-            { "nfc":  "Nao"},
             { "biometria": "Nao" },
-            {"agua":"Nao"},
-            {"sem_fio":"Nao"}
+            { "agua": "Nao" },
+            { "sem_fio": "Nao" }
             
         ],
         "con": [
-            { "celular": { "modelo": "Multilaser E Lite", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": { 
+                "modelo": "Positivo P70",
+                "imagem": "./img/p70.png",
+                "descricao": "Smartphone Android com design que lembra os celulares tradicionais, com teclado físico e tela pequena. Conta com apenas 512MB de armazenamento e 256MB de RAM.",
+                "preco": "R$ 220,00" }
+            }
         ],
         "aplicada": false
     },
     {
         "ant": [
             { "sistema": "Android" },
-            {"ipreco":"Entre R$ 220,00 e R$ 800,00"},
-            { "armazenamento": "32GB"},
-            {  "ram": "2GB"},
-            { "chip":"dual chip"},
-            { "cam_traseira":"12 a 20 MP"},
-            { "cam_frontal":"5 a 10 MP"},
-            {"res_filmagem":"FULL HD"},
-            {"tela":"Acima de 6"},
-            {"bateria":"1821 mAh a 3000 mAh"},
+            { "ipreco": "Entre R$ 220,00 e R$ 800,00" },
+            { "armazenamento": "16GB" },
+            { "ram": "Ate 1GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "0.3 a 10 MP" },
+            { "cam_frontal": "5 a 10 MP" },
+            { "res_filmagem": "sem filmadora" },
+            { "tela": "4" },
+            { "bateria": "Ate 1500 mAh" },
+            { "conexao": "3G" },
+            { "nfc": "Nao" },
+            { "biometria": "Nao" },
+            { "agua": "Nao" },
+            { "sem_fio": "Nao" }
+            
+        ],
+        "con": [
+            { "celular": {
+                "modelo": "Multilaser E Lite",
+                "imagem": "./img/multilaser-e.jpg",
+                "descricao": "Smartphone Android da marca brasileira Multilaser. Apresenta baixo preço, mas conta com apenas 512MB de memória RAM.",
+                "preco": "R$ 340,00" }}
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            { "ipreco": "Entre R$ 220,00 e R$ 800,00" },
+            { "armazenamento": "32GB" },
+            { "ram": "2GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "12 a 20 MP" },
+            { "cam_frontal": "5 a 10 MP" },
+            { "res_filmagem": "FULL HD" },
+            { "tela": "Acima de 6" },
+            { "bateria": "1821 mAh a 3000 mAh" },
             { "conexao": "4G" },
             { "nfc": "Nao" },
-            { "biometria":"Sim"  },
-            {"agua":"Nao"},
-            {"sem_fio":"Nao"}
+            { "biometria": "Sim" },
+            { "agua": "Nao" },
+            { "sem_fio": "Nao" }
             
         ],
         "con": [
-            { "celular": { "modelo": "Motorola Moto E E6i", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": {
+                "modelo": "Motorola Moto E E6i",
+                "imagem": "./img/motoE.jpg",
+                "descricao": "Smartphone Android da marca Motorola, conta com 32 GB de armazenamento e tela de 6.1 polegadas.",
+                "preco": "R$ 800,00" }}
         ],
         "aplicada": false
     },
     {
         "ant": [
             { "sistema": "Android" },
-            {"ipreco":"Entre R$ 220,00 e R$ 800,00"},
-            { "armazenamento": "64GB"},
-            {  "ram": "Ate 1GB"},
-            { "chip":"dual chip"},
-            { "cam_traseira":"0.3 a 10 MP"},
-            { "cam_frontal":"5 a 10 MP"},
-            {"res_filmagem":"HD"},
-            {"tela":"5 a 6"},
-            {"bateria":"1821 mAh a 3000 mAh"},
+            { "ipreco": "Entre R$ 220,00 e R$ 800,00" },
+            { "armazenamento": "64GB" },
+            { "ram": "Ate 1GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "0.3 a 10 MP" },
+            { "cam_frontal": "5 a 10 MP" },
+            { "res_filmagem": "HD" },
+            { "tela": "5 a 6" },
+            { "bateria": "1821 mAh a 3000 mAh" },
             { "conexao": "4G" },
-            { "nfc":  "Nao"},
+            { "nfc": "Nao" },
             { "biometria": "Nao" },
-            {"agua":"Nao"},
-            {"sem_fio":"Nao"}
+            { "agua": "Nao" },
+            { "sem_fio": "Nao" }
             
         ],
         "con": [
-            { "celular": { "modelo": "Positivo Twist 4 Pro", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": {
+                "modelo": "Positivo Twist 4 Pro",
+                "imagem": "./img/twist4pro.png",
+                "descricao": "Smartphone Android da marca brasileira Positivo. É um modelo com especificações limitadas, mas que apresenta um preço mais acessível.",
+                "preco": "R$ 650,00" }
+            }
         ],
         "aplicada": false
     },
     {
         "ant": [
-            { "sistema":"Android"  },
-            {"ipreco":"Entre R$ 1100,00 e R$ 1800,00"},
-            { "armazenamento": "128GB"},
-            {  "ram": "4GB"},
-            { "chip":"dual chip"},
-            { "cam_traseira":"Acima de 20 MP"},
-            { "cam_frontal":"12 a 16 MP"},
-            {"res_filmagem":"4K"},
-            {"tela":"Acima de 6"},
-            {"bateria":"3100 mAh a 4000 mAh"},
+            { "sistema": "Android" },
+            { "ipreco": "Entre R$ 1100,00 e R$ 1800,00" },
+            { "armazenamento": "128GB" },
+            { "ram": "4GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "Acima de 20 MP" },
+            { "cam_frontal": "12 a 16 MP" },
+            { "res_filmagem": "4K" },
+            { "tela": "Acima de 6" },
+            { "bateria": "3100 mAh a 4000 mAh" },
             { "conexao": "4G" },
-            { "nfc":  "Nao"},
+            { "nfc": "Nao" },
             { "biometria": "Sim" },
-            {"agua":"Nao"},
-            {"sem_fio":"Nao"}
+            { "agua": "Nao" },
+            { "sem_fio": "Nao" }
             
         ],
         "con": [
-            { "celular": { "modelo": "Redmi Note 8", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": {
+                "modelo": "Redmi Note 8",
+                "imagem": "./img/note8.jpg",
+                "descricao": "Smartphone Android da fabricante Xiaomi, conta com tela de 6.3 polegadas, leitor biométrico e 128 GB de armazenamento por um baixo preço.",
+                "preco": "R$ 1.100,00" }
+            }
         ],
         "aplicada": false
     },
     {
         "ant": [
             { "sistema": "Android" },
-            {"ipreco":"Entre R$ 1100,00 e R$ 1800,00"},
-            { "armazenamento": "128GB"},
-            {  "ram":"6GB" },
-            { "chip":"dual chip"},
-            { "cam_traseira":"Acima de 20 MP"},
-            { "cam_frontal":"20 MP ou mais"},
-            {"res_filmagem":"4K"},
-            {"tela":"Acima de 6"},
-            {"bateria":"5000 mAh a 6000 mAh"},
-            { "conexao":  "4G"},
-            { "nfc":  "Nao"},
-            { "biometria": "Sim" },
-            {"agua":"Nao"},
-            {"sem_fio":"Nao"}
-            
-        ],
-        "con": [
-            { "celular": { "modelo": "Samsung Galaxy M32", "imagem": "", "descricao": "", "preco": "" }}
-        ],
-        "aplicada": false
-    },
-    {
-        "ant": [
-            { "sistema":  "Android"},
-            {"ipreco":"Entre R$ 2000,00 e R$ 2700,00"},
-            { "armazenamento": "128GB"},
-            {  "ram": "6GB"},
-            { "chip":"dual chip"},
-            { "cam_traseira":"Acima de 20 MP"},
-            { "cam_frontal":"12 a 16 MP"},
-            {"res_filmagem":"4K"},
-            {"tela":"Acima de 6"},
-            {"bateria":"3100 mAh a 4000 mAh"},
-            { "conexao":  "4G"},
-            { "nfc":  "Sim"},
-            { "biometria": "Sim" },
-            {"agua":"Sim"},
-            {"sem_fio":"Nao"}
-            
-        ],
-        "con": [
-            { "celular": { "modelo": "LG Velvet", "imagem": "", "descricao": "", "preco": "" }}
-        ],
-        "aplicada": false
-    },
-    {
-        "ant": [
-            { "sistema": "Android" },
-            {"ipreco": "Entre R$ 2000,00 e R$ 2700,00"},
-            { "armazenamento": "128GB"},
-            {  "ram": "6GB"},
-            { "chip":"dual chip"},
-            { "cam_traseira":"Acima de 20 MP"},
-            { "cam_frontal":"12 a 16 MP"},
-            {"res_filmagem":"4K"},
-            {"tela":"Acima de 6"},
-            {"bateria":"5000 mAh a 6000 mAh"},
+            { "ipreco": "Entre R$ 1100,00 e R$ 1800,00" },
+            { "armazenamento": "128GB" },
+            { "ram": "6GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "Acima de 20 MP" },
+            { "cam_frontal": "20 MP ou mais" },
+            { "res_filmagem": "4K" },
+            { "tela": "Acima de 6" },
+            { "bateria": "5000 mAh a 6000 mAh" },
             { "conexao": "4G" },
-            { "nfc":  "Sim"},
+            { "nfc": "Nao" },
             { "biometria": "Sim" },
-            {"agua":"Nao"},
-            {"sem_fio":"Nao"}
+            { "agua": "Nao" },
+            { "sem_fio": "Nao" }
             
         ],
         "con": [
-            { "celular": { "modelo": "Motorola G60s", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": {
+                "modelo": "Samsung Galaxy M32",
+                "imagem": "./img/m32.jpg",
+                "descricao": "Smartphone Android da Samsung, conta com 128GB de armazenamento, tela de 6.4 polegadas e bateria de 5000 mAh.",
+                "preco": "R$ 1.800,00" }
+            }
         ],
         "aplicada": false
     },
     {
         "ant": [
             { "sistema": "Android" },
-            {"ipreco":"Entre R$ 3900,00 e R$ 4500,00"},
-            { "armazenamento": "256GB"},
-            {  "ram": "8GB"},
-            { "chip":"dual chip"},
-            { "cam_traseira":"Acima de 20 MP"},
-            { "cam_frontal":"5 a 10 MP"},
-            {"res_filmagem":"8K"},
-            {"tela":"Acima de 6"},
-            {"bateria":"4300 mAh a 4900 mAh"},
+            { "ipreco": "Entre R$ 2000,00 e R$ 2700,00" },
+            { "armazenamento": "128GB" },
+            { "ram": "6GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "Acima de 20 MP" },
+            { "cam_frontal": "12 a 16 MP" },
+            { "res_filmagem": "4K" },
+            { "tela": "Acima de 6" },
+            { "bateria": "4300 mAh a 4900 mAh" },
+            { "conexao": "4G" },
+            { "nfc": "Sim" },
+            { "biometria": "Sim" },
+            { "agua": "Sim" },
+            { "sem_fio": "Nao" }
+            
+        ],
+        "con": [
+            { "celular": {
+                "modelo": "LG Velvet",
+                "imagem": "./img/velvet.jpg",
+                "descricao": "Smartphone Android da LG, com design fino e elegante, tela de 6.8 polegadas e bateria de 4300 mAh.",
+                "preco": "R$ 2000,00" }
+            }
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            { "ipreco": "Entre R$ 2000,00 e R$ 2700,00" },
+            { "armazenamento": "128GB" },
+            { "ram": "6GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "Acima de 20 MP" },
+            { "cam_frontal": "12 a 16 MP" },
+            { "res_filmagem": "4K" },
+            { "tela": "Acima de 6" },
+            { "bateria": "5000 mAh a 6000 mAh" },
+            { "conexao": "4G" },
+            { "nfc": "Sim" },
+            { "biometria": "Sim" },
+            { "agua": "Nao" },
+            { "sem_fio": "Nao" }
+            
+        ],
+        "con": [
+            { "celular": {
+                "modelo": "Motorola G60s",
+                "imagem": "./img/g60s.jpg",
+                "descricao": "Smartphone da Motorola com sistema Android, com destaque para a bateria grande de 5000 mAh e armazenamento de 128 GB.",
+                "preco": "R$ 2.200,00" }
+            }
+        ],
+        "aplicada": false
+    },
+    {
+        "ant": [
+            { "sistema": "Android" },
+            { "ipreco": "Entre R$ 3900,00 e R$ 4500,00" },
+            { "armazenamento": "256GB" },
+            { "ram": "8GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "Acima de 20 MP" },
+            { "cam_frontal": "5 a 10 MP" },
+            { "res_filmagem": "8K" },
+            { "tela": "Acima de 6" },
+            { "bateria": "4300 mAh a 4900 mAh" },
             { "conexao": "5G" },
             { "nfc": "Sim" },
             { "biometria": "Sim" },
-            {"agua":"Sim"},
-            {"sem_fio":"Sim"}
+            { "agua": "Sim" },
+            { "sem_fio": "Sim" }
             
         ],
         "con": [
-            { "celular": { "modelo": "Samsung Galaxy Note 20", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": { 
+                "modelo": "Samsung Galaxy Note 20",
+                "imagem": "./img/note20.jpg",
+                "descricao": "Smartphone Android, com tela grande de 6.7 polegadas, grava vídeos em resolução 8K, possui resistência a água e carregamento sem fio.",
+                "preco": "R$ 3.900,00" }}
         ],
         "aplicada": false
     },
     {
         "ant": [
             { "sistema": "Android" },
-            {"ipreco":" Acima de R$ 5500,00"},
-            { "armazenamento": "256GB"},
-            {  "ram": "16GB"},
-            { "chip":"dual chip"},
-            { "cam_traseira":"Acima de 20 MP"},
-            { "cam_frontal":"20 MP ou mais"},
-            {"res_filmagem":"8K"},
-            {"tela":"Acima de 6"},
-            {"bateria":"5000 mAh a 6000 mAh"},
+            { "ipreco": "Acima de R$ 5500,00" },
+            { "armazenamento": "256GB" },
+            { "ram": "16GB" },
+            { "chip": "dual chip" },
+            { "cam_traseira": "Acima de 20 MP" },
+            { "cam_frontal": "20 MP ou mais" },
+            { "res_filmagem": "8K" },
+            { "tela": "Acima de 6" },
+            { "bateria": "5000 mAh a 6000 mAh" },
             { "conexao": "5G" },
-            { "nfc":  "Sim"},
+            { "nfc": "Sim" },
             { "biometria": "Sim" },
-            {"agua":"Nao"},
-            {"sem_fio":"Sim"}
+            { "agua": "Nao" },
+            { "sem_fio": "Sim" }
             
         ],
         "con": [
-            { "celular": { "modelo": "Asus ROG Phone 5", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": { 
+                "modelo": "Asus ROG Phone 5",
+                "imagem": "./img/rog-phone.jpg",
+                "descricao": "Smartphone Android, voltado ao público de jogos eletrônicos. Conta com 16 GB de memória RAM e uma tela enorme de 6.78 polegadas.",
+                "preco": "R$ 6.500,00" }
+            }
         ],
         "aplicada": false
     },
     {
         "ant": [
             { "sistema": "iOS" },
-            {"ipreco":"Entre R$ 3900,00 e R$ 4500,00"},
-            { "armazenamento": "128GB"},
-            {  "ram": "4GB"},
-            { "chip":"single chip"},
-            { "cam_traseira":"12 a 20 MP"},
-            { "cam_frontal":"12 a 16 MP"},
-            {"res_filmagem":"4K"},
-            {"tela":"Acima de 6"},
-            {"bateria":"3100 mAh a 4000 mAh"},
+            { "ipreco": "Entre R$ 3900,00 e R$ 4500,00" },
+            { "armazenamento": "128GB" },
+            { "ram": "4GB" },
+            { "chip": "single chip" },
+            { "cam_traseira": "12 a 20 MP" },
+            { "cam_frontal": "12 a 16 MP" },
+            { "res_filmagem": "4K" },
+            { "tela": "Acima de 6" },
+            { "bateria": "3100 mAh a 4000 mAh" },
             { "conexao": "4G" },
             { "nfc": "Sim" },
-            { "biometria":"Nao"  },
-            {"agua":"Sim"},
-            {"sem_fio":"Sim"}
+            { "biometria": "Nao" },
+            { "agua": "Sim" },
+            { "sem_fio": "Sim" }
             
         ],
         "con": [
-            { "celular": { "modelo": "iPhone 11", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": {
+                "modelo": "iPhone 11",
+                "imagem": "./img/iphone11.jpg",
+                "descricao": "Smartphone iOS, com tela de 6.1 polegadas, conexão 4G e armazenamento de 128GB.",
+                "preco": "R$ 4.500,00" }
+            }
         ],
         "aplicada": false
     },
     {
         "ant": [
             { "sistema": "iOS" },
-            {"ipreco":" Acima de R$ 5500,00"},
-            { "armazenamento": "128GB"},
-            {  "ram": "4GB"},
-            { "chip":"single chip"},
-            { "cam_traseira":"12 a 20 MP"},
-            { "cam_frontal":"12 a 16 MP"},
-            {"res_filmagem":"4K"},
-            {"tela":"5 a 6"},
-            {"bateria":"1821 mAh a 3000 mAh"},
-            { "conexao":  "5G"},
-            { "nfc":  "Sim"},
+            { "ipreco": "Acima de R$ 5500,00" },
+            { "armazenamento": "128GB" },
+            { "ram": "4GB" },
+            { "chip": "single chip" },
+            { "cam_traseira": "12 a 20 MP" },
+            { "cam_frontal": "12 a 16 MP" },
+            { "res_filmagem": "4K" },
+            { "tela": "5 a 6" },
+            { "bateria": "1821 mAh a 3000 mAh" },
+            { "conexao": "5G" },
+            { "nfc": "Sim" },
             { "biometria": "Nao" },
-            {"agua":"Sim"},
-            {"sem_fio":"Sim"}
+            { "agua": "Sim" },
+            { "sem_fio": "Sim" }
             
         ],
         "con": [
-            { "celular": { "modelo": "iPhone 12 Mini", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": {
+                "modelo": "iPhone 12 Mini",
+                "imagem": "./img/iphone12mini.jpg",
+                "descricao": "O Apple iPhone 12 Mini é um smartphone iOS com tela de 5.4 polegadas, conectiviade 5G, NFC, resistência a água e memória interna de 128GB.",
+                "preco": "R$ 5500,00" }
+            }
         ],
         "aplicada": false
     },
     {
         "ant": [
-            { "sistema":"iOS"  },
-            {"ipreco":" Acima de R$ 5500,00"},
-            { "armazenamento": "512GB"},
-            {  "ram": "4GB"},
-            { "chip":"single chip"},
-            { "cam_traseira":"12 a 20 MP"},
-            { "cam_frontal": "12 a 16 MP"},
-            {"res_filmagem":"4K"},
-            {"tela":"Acima de 6"},
-            {"bateria":"3100 mAh a 4000 mAh"},
-            { "conexao":  "5G"},
+            { "sistema": "iOS" },
+            { "ipreco": "Acima de R$ 5500,00" },
+            { "armazenamento": "512GB" },
+            { "ram": "4GB" },
+            { "chip": "single chip" },
+            { "cam_traseira": "12 a 20 MP" },
+            { "cam_frontal": "12 a 16 MP" },
+            { "res_filmagem": "4K" },
+            { "tela": "Acima de 6" },
+            { "bateria": "3100 mAh a 4000 mAh" },
+            { "conexao": "5G" },
             { "nfc": "Sim" },
-            { "biometria":"Nao"  },
-            {"agua":"Sim"},
-            {"sem_fio":"Sim"}
+            { "biometria": "Nao" },
+            { "agua": "Sim" },
+            { "sem_fio": "Sim" }
             
         ],
         "con": [
-            { "celular": { "modelo": "iPhone 12 Pro Max", "imagem": "", "descricao": "", "preco": "" }}
+            { "celular": {
+                "modelo": "iPhone 12 Pro Max",
+                "imagem": "./img/iphone12promax.jpg",
+                "descricao": "O iPhone 12 Pro Max é um smartphone iOS topo de linha da Apple. Conta com tela de 6.7 polegadas, conectiviade 5G e memória interna de 512 GB.",
+                "preco": "R$ 9.999,99" }
+            }
         ],
         "aplicada": false
     }

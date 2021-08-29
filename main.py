@@ -1,11 +1,10 @@
 import json
 import interface
 import inferencia
+import resultado
 
 with open("regras.json", "r") as f:
     regras = json.load(f)
-
-# print(regras)
 
 fatos = []
 inputs = []
@@ -29,4 +28,4 @@ fatos.append({ 'input_sem_fio':  inputs[15].get()})
 
 celular = inferencia.encadeamento_frente('celular', fatos, regras)
 
-print(celular['modelo'])
+resultado.mostrar_resultado(celular)
