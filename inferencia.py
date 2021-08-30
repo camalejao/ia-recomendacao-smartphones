@@ -27,7 +27,7 @@ def encadeamento_frente(goal, fatos, regras):
         if not add:
             break
     
-    celular = {'modelo': 'desconhecido', 'imagem': './img/desconhecido.png', 'descricao': 'Não conseguimos encontrar um modelo adequado para suas preferências.'}
+    celular = {'modelo': 'Desconhecido', 'imagem': './img/desconhecido.png', 'descricao': 'Não conseguimos encontrar um modelo adequado para suas preferências.'}
     for f in fatos:
         if 'celular' in f:
             celular = f['celular']

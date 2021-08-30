@@ -290,7 +290,7 @@
             { "cam_frontal": "5 a 10 MP" },
             { "res_filmagem": "8K" },
             { "tela": "Acima de 6" },
-            { "bateria": "5000 mAh a 6000 mAh" },
+            { "bateria": "3100 mAh a 4000 mAh" },
             { "conexao": "5G" },
             { "nfc": "Sim" },
             { "biometria": "Sim" },
@@ -302,7 +302,8 @@
                 "modelo": "Galaxy S21",
                 "imagem": "./img/s21.jpg",
                 "descricao": "Smartphone Android topo de linha da Samsung. Tem conexão 5G, 256 GB de armazenamento, NFC, biometria e resistência a água.",
-                "preco": "R$ 4.000,00" }}
+                "preco": "R$ 4.000,00" }
+            }
         ],
         "aplicada": false
     },
@@ -330,7 +331,8 @@
                 "modelo": "Redmi Note 10",
                 "imagem": "./img/note10.jpg",
                 "descricao": "Smartphone Android fabricado pela Xiaomi. Conta com 5000 mAh de bateria, 64GB de armazenamento e leitor biométrico.",
-                "preco": "R$ 1.500,00" }}
+                "preco": "R$ 1.500,00" }
+            }
         ],
         "aplicada": false
     },
